@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<title>Machine Learning</title>
+
+<h1>Qui achète du fioul bientôt</h1>
+
+<ul>
+  {% for customer in customers %}
+  <li>{{ customer.decode('utf8') }}</li>
+  {% endfor %}
+</ul>
+
